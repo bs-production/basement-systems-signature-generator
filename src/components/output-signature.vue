@@ -45,7 +45,7 @@
                 <tr v-show="mobilePhoneSwitch">
                 <td width="20" valign="top" style=
                   "vertical-align: top; width: 20px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                  Mobile:
+                  Office:
                   </td>
                   <td valign="top" style=
                   "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
