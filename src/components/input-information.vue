@@ -26,7 +26,7 @@
 
         <div class="field">
           <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'Mid-State';}" onfocus="if (this.value == 'Mid-State') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Ohio';}" onfocus="if (this.value == 'Ohio') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
                     <span class="icon is-small is-left">
                       <i class="fa fa-phone"></i>
                     </span>
