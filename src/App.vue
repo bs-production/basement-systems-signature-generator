@@ -93,8 +93,8 @@ export default {
     return {
       fullName: 'Full Name',
       title: 'Title',
-      mobilePhone: 'Office2',
-      phone: 'Office',
+      mobilePhone: 'Indiana',
+      phone: 'Mid-State',
       email: 'Email',
       isShowing: false,
       mobilePhoneSwitch: false
@@ -102,13 +102,13 @@ export default {
   },
   computed: {
     isValid: function () {
-      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Office' && this.email !== 'Email'
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Mid-State' && this.email !== 'Email'
     },
     isValidAss: function () {
-      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.mobilePhone !== 'Office2' && this.phone !== 'Office' && this.email !== 'Email'
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.mobilePhone !== 'Indiana' && this.phone !== 'Mid-State' && this.email !== 'Email'
     },
     isReset: function () {
-      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.mobilePhone !== 'Office2' || this.phone !== 'Office' || this.email !== 'Email'
+      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.mobilePhone !== 'Indiana' || this.phone !== 'Mid-State' || this.email !== 'Email'
     }
   },
   methods: {
@@ -124,8 +124,8 @@ export default {
     reset () {
       this.fullName = 'Full Name'
       this.title = 'Title'
-      this.mobilePhone = 'Office2'
-      this.phone = 'Office'
+      this.mobilePhone = 'Indiana'
+      this.phone = 'Mid-State'
       this.email = 'Email'
     },
     updateTitle (updatedTitle) {

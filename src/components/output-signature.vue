@@ -33,9 +33,9 @@
               </div>
              
                 <tr>
-                  <td width="20" valign="top" style=
-                  "vertical-align: top; width: 20px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                  Office:
+                  <td width="70" valign="top" style=
+                  "vertical-align: top; width: 70px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  Mid-State:
                   </td>
                   <td valign="top" style=
                   "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
@@ -43,9 +43,9 @@
                   </td>
                 </tr>
                 <tr v-show="mobilePhoneSwitch">
-                <td width="20" valign="top" style=
-                  "vertical-align: top; width: 20px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                  Office:
+                <td width="70" valign="top" style=
+                  "vertical-align: top; width: 70px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  Indiana:
                   </td>
                   <td valign="top" style=
                   "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
@@ -53,8 +53,8 @@
                   </td>
                 </tr>
                 <tr>
-                    <td width="20" valign="top" style=
-                    "vertical-align: top; width: 20px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                    <td width="70" valign="top" style=
+                    "vertical-align: top; width: 70px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
                     Email:
                     </td>
                     <td valign="top" style=
@@ -64,8 +64,8 @@
                     </td>
                   </tr>
                 <tr>
-                  <td width="20" valign="top" style=
-                  "vertical-align: top; width: 20px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  <td width="70" valign="top" style=
+                  "vertical-align: top; width: 70px; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
                   Web:
                   </td>
                   <td valign="top" style=

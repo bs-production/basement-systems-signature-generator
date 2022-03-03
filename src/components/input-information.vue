@@ -26,7 +26,7 @@
 
         <div class="field">
           <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'Office';}" onfocus="if (this.value == 'Office') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Mid-State';}" onfocus="if (this.value == 'Mid-State') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
                     <span class="icon is-small is-left">
                       <i class="fa fa-phone"></i>
                     </span>
@@ -35,7 +35,7 @@
           <div v-show="mobilePhoneSwitch">
           <div class="field" style="margin-bottom: .75rem;">
           <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'Office2';}" onfocus="if (this.value == 'Office2') {this.value = '';}" :value="mobilePhone" @input="$emit('update:mobilePhone', $event.target.value)" type="text">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Indiana';}" onfocus="if (this.value == 'Indiana') {this.value = '';}" :value="mobilePhone" @input="$emit('update:mobilePhone', $event.target.value)" type="text">
                    <span class="icon is-small is-left">
                       <i class="fa fa-phone"></i>
                     </span>
@@ -53,7 +53,7 @@
         </div>
         </form>
     </section>
-         <button @click="changeTitle">Add/Remove: Office 2 phone number</button>      
+         <button @click="changeTitle">Add/Remove: Indiana phone number</button>      
   </div>
 </template>
 
